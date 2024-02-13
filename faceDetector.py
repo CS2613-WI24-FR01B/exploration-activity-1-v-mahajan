@@ -1,4 +1,11 @@
-#importing OpenCV library - Python
+# Exploration Activity - 1
+# Submitted by - Vansh Mahajan
+# Student ID - 3712178
+# Course CS 2613
+# Topic - Python Library : OpenCV 
+
+
+# python Library import
 import cv2
 
 # 1. Turning Images to grayScale
