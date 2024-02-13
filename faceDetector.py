@@ -1,4 +1,4 @@
-#importing OpenCV library
+#importing OpenCV library - Python
 import cv2
 
 # 1. Turning Images to grayScale
@@ -7,6 +7,10 @@ grayscaleFlowersImage = cv2.cvtColor(flowersImage, cv2.COLOR_BGR2GRAY)
 cv2.imshow('Coloured to gray', grayscaleFlowersImage)
 
 # 2. Blurring a image
+clearImage = cv2.imread('./images/ImageToBlur.jpeg')
+size = (5,5)
+blurredImage = cv2.blur(clearImage, size)
+cv2.imshow('clear to Blur Image', blurredImage)
 
 # 3. Cropping an image
 
