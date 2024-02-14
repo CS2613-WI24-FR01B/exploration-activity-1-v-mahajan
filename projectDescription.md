@@ -7,7 +7,7 @@
     Some of the major tasks it helps with are:
     1. Image processing
     2. Feature Detection 
-    3. Object Recogniton
+    3. Object Recognition
     4. Video analysis
 
     • How do you use it?
@@ -24,40 +24,40 @@ Some of the functionalities of the package is as follows:
 
 1. flip(arg1, arg2) method:
 This helps to flip the image. For instance below line of code turns the image vertically.
-    flippedImage = cv2.flip(imageToFlip, 0)
+    flippedImage = cv2.flip(imageToFlip, 0) [2]
 The two arguments are : 
 a. Image you want to flip
 b. code which is used to determine how the image is flliped. 0 for vertical flip and 1 for horizontal flip.
 
 before fliping: 
-![alt original image](./images/ImageToFlip.jpeg)
+![alt original image](./images/ImageToFlip.jpeg)[3]
 
 after flipping:
-![alt flipped image ](./images/FlipOutput.png)
+![alt flipped image ](./images/FlipOutput.png)[3]
 
-2. blur(arg1 , arg2) method:
+2. blur(arg1 , arg2) method: [2]
 This helps in blurring an image. You can manipulate the amount of blurrness you want.
 For instance, the code below blurs an image named clearImage:
 size = (20,20)
-blurredImage = cv2.blur(clearImage, size)
+blurredImage = cv2.blur(clearImage, size)[2]
 
 before blurring:
-![alt org image](./images/ImageToBlur.jpeg)
+![alt org image](./images/ImageToBlur.jpeg)[3]
 
 after blurring:
-![alt blurred image](./images/BlurOutput.png)
+![alt blurred image](./images/BlurOutput.png)[3]
 
 **_NOTE:_**: Size here is a tuple which represents nothing but width and height of a pixel. More the size, more blur is the image
 
-3. Shape detection:
+3. Shape detection:[2]
 Using method, findContour(), we get the coordinates of the edges of the shapes as it looks the grayscale version of the original image to recognize the edge
 then, using drawContour(), we draw the edges of the required color on our output image.
 
 input image: 
-![alt org image](./images/shapes.jpeg)
+![alt org image](./images/shapes.jpeg)[3]
 
 output image:
-![alt  outputImage](./images/ShapesOutput.png)
+![alt  outputImage](./images/ShapesOutput.png)[3]
 
 # When was it created?
 OpenCV was released in June 2000 by Intel, Willow Garage, Itseez.
@@ -74,3 +74,8 @@ OpenCV was released in June 2000 by Intel, Willow Garage, Itseez.
 
     • Would you continue using this package/library? Why or why not?
     Yes definitly, i would continue using this package.
+
+# References:
+[1] OpenCV wiikipedia source [Link refLink](https://en.wikipedia.org/wiki/OpenCV)
+[2] Code snippets  [Link refLink](https://www.geeksforgeeks.org/how-to-detect-shapes-in-images-in-python-using-opencv/)
+[3] Images [Link refLink](https://unsplash.com/)
