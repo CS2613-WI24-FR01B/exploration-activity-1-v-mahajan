@@ -33,7 +33,7 @@ before fliping:
 ![alt original image](./images/ImageToFlip.jpeg)
 
 after flipping:
-![alt flipped image ]('./images/FlipOutput.png')
+![alt flipped image ](./images/FlipOutput.png)
 
 2. blur(arg1 , arg2) method:
 This helps in blurring an image. You can manipulate the amount of blurrness you want.
@@ -54,7 +54,7 @@ Using method, findContour(), we get the coordinates of the edges of the shapes a
 then, using drawContour(), we draw the edges of the required color on our output image.
 
 input image: 
-![alt org image](./images/shapes.png)
+![alt org image](./images/shapes.jpeg)
 
 output image:
 ![alt  outputImage](./images/ShapesOutput.png)
