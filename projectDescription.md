@@ -19,7 +19,9 @@
     • This section should be the largest and go into lots of detail. Not everything here must
 be utilized in your sample program.
 # What are the functionalities of the package/library?
+
 Some of the functionalities of the package is as follows:
+
 1. flip(arg1, arg2) method:
 This helps to flip the image. For instance below line of code turns the image vertically.
     flippedImage = cv2.flip(imageToFlip, 0)
@@ -28,17 +30,34 @@ a. Image you want to flip
 b. code which is used to determine how the image is flliped. 0 for vertical flip and 1 for horizontal flip.
 
 before fliping: 
-![alt abcImage](./images/ImageToFlip.jpeg)
+![alt original image](./images/ImageToFlip.jpeg)
+
+after flipping:
+![alt flipped image ]('./images/FlipOutput.png')
 
 2. blur(arg1 , arg2) method:
 This helps in blurring an image. You can manipulate the amount of blurrness you want.
 For instance, the code below blurs an image named clearImage:
-
 size = (20,20)
 blurredImage = cv2.blur(clearImage, size)
 
-Note: Size here is a tuple which represents nothing but width and height of a pixel. More the size, more blur is the image
+before blurring:
+![alt org image]('./images/ImageToBlur.pjeg')
 
+after blurring:
+![alt blurred image]('./images/BlurOutput')
+
+**_NOTE:_**: Size here is a tuple which represents nothing but width and height of a pixel. More the size, more blur is the image
+
+3. Shape detection:
+Using method, findContour(), we get the coordinates of the edges of the shapes as it looks the grayscale version of the original image to recognize the edge
+then, using drawContour(), we draw the edges of the required color on our output image.
+
+input image: 
+![alt ]('./images/shapes.png')
+
+output image:
+![alt ]('./images/ShapesOutput.png')
 
 # When was it created?
 OpenCV was released in June 2000 by Intel, Willow Garage, Itseez.
