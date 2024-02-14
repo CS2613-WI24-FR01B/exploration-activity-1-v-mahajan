@@ -42,10 +42,10 @@ size = (20,20)
 blurredImage = cv2.blur(clearImage, size)
 
 before blurring:
-![alt org image]('./images/ImageToBlur.pjeg')
+![alt org image]('./images/ImageToBlur.jpeg')
 
 after blurring:
-![alt blurred image]('./images/BlurOutput')
+![alt blurred image]('./images/BlurOutput.png')
 
 **_NOTE:_**: Size here is a tuple which represents nothing but width and height of a pixel. More the size, more blur is the image
 
