@@ -28,7 +28,7 @@ a. Image you want to flip
 b. code which is used to determine how the image is flliped. 0 for vertical flip and 1 for horizontal flip.
 
 before fliping: 
-[!alt(./images/ImageToFlip.jpeg)]
+![alt abcImage](./images/ImageToFlip.jpeg)
 
 2. blur(arg1 , arg2) method:
 This helps in blurring an image. You can manipulate the amount of blurrness you want.
