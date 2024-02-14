@@ -42,10 +42,10 @@ size = (20,20)
 blurredImage = cv2.blur(clearImage, size)
 
 before blurring:
-![alt org image]('./images/ImageToBlur.jpeg')
+![alt org image](./images/ImageToBlur.jpeg)
 
 after blurring:
-![alt blurred image]('./images/BlurOutput.png')
+![alt blurred image](./images/BlurOutput.png)
 
 **_NOTE:_**: Size here is a tuple which represents nothing but width and height of a pixel. More the size, more blur is the image
 
@@ -54,10 +54,10 @@ Using method, findContour(), we get the coordinates of the edges of the shapes a
 then, using drawContour(), we draw the edges of the required color on our output image.
 
 input image: 
-![alt ]('./images/shapes.png')
+![alt org image](./images/shapes.png)
 
 output image:
-![alt ]('./images/ShapesOutput.png')
+![alt  outputImage](./images/ShapesOutput.png)
 
 # When was it created?
 OpenCV was released in June 2000 by Intel, Willow Garage, Itseez.
