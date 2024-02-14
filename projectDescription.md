@@ -76,6 +76,6 @@ OpenCV was released in June 2000 by Intel, Willow Garage, Itseez.
     Yes definitly, i would continue using this package.
 
 # References:
-[1] OpenCV wiikipedia source [Link refLink](https://en.wikipedia.org/wiki/OpenCV)  
-[2] Code snippets  [Link refLink](https://www.geeksforgeeks.org/how-to-detect-shapes-in-images-in-python-using-opencv/)  
-[3] Images [Link refLink](https://unsplash.com/)  
+[1] OpenCV wiikipedia source [reference](https://en.wikipedia.org/wiki/OpenCV)  
+[2] Code snippets  [reference](https://www.geeksforgeeks.org/how-to-detect-shapes-in-images-in-python-using-opencv/)  
+[3] Images [reference](https://unsplash.com/)  
