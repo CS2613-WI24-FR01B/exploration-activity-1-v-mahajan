@@ -7,7 +7,10 @@ Python Library : OpenCV is used
 # How does someone run your program?
 To run the pythonLib_EA1.py, do as follows:
 1. In terminal, go the directory in which the above mentioned file is saved.
-2. Type command "python -u pythonLib_EA1.py". Here -u means unbuffered. This tells the system to produce an unbuffered output as soon as the file is run.
+
+2. Make sure "pip" is installed on your system (It usually comes the python package but for some reason Lab computers does not have pip.). Before running you have to install the package using command 'pip install opencv-python'
+
+3. Type command "python -u pythonLib_EA1.py". Here -u means unbuffered. This tells the system to produce an unbuffered output as soon as the file is run.
 
 # What purpose does this program serve?
 The purpose of this program is to demonstrate how users can easily manipulate the images in python. 

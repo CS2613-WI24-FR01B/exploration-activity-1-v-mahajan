@@ -1,5 +1,6 @@
 # Which package/library did you select?
     Python Library: OpenCV 
+    
 # What is the package/library?
     • What purpose does it serve?
     The OpenCV is python computer vision library. It provides tools for image processing tasks. [1]
@@ -41,7 +42,13 @@ OpenCV was released in June 2000 by Intel, Willow Garage, Itseez.
 
 # Why did you select this package/library?
     I chose this package because of the advance functions it provides like face detetor model and tools to help with machine learning. 
+
 # How did learning the package/library influence your learning of the language?
+    I was never aware of the fact that python has such built in functions to work with images and videos. 
+
 # How was your overall experience with the package/library?
     • When would you recommend this package/library to someone?
+    Yes, I would recommend this library to anyone working with images and videos. If someone is working on stuff like image detection and object recognition, this package is definitly recommended.
+
     • Would you continue using this package/library? Why or why not?
+    Yes definitly, i would continue using this package.
